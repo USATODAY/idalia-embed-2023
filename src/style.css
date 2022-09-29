@@ -1,0 +1,93 @@
+.usat-interactive-graphic,
+.usat-interactive-graphic * {
+	box-sizing: border-box;
+}
+
+body,
+html {
+	margin: 0;
+	padding: 0;
+}
+
+.usat-interactive-graphic div,
+.usat-interactive-graphic h1,
+.usat-interactive-graphic h2,
+.usat-interactive-graphic h3,
+.usat-interactive-graphic h4,
+.usat-interactive-graphic .h5,
+.usat-interactive-graphic p {
+	margin: 0;
+	padding: 0;
+}
+
+.usat-interactive-graphic {
+	font-family: "Unify Sans", sans-serif;
+	font-size: 16px;
+	overflow: auto;
+}
+.header-wrap {
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+.usat-interactive-graphic p.graphic-chatter {
+	margin-top: 0;
+}
+
+.footer-wrap {
+	margin: 20px auto 0;
+}
+
+.usat-interactive-graphic img.graphic-img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+.usat-interactive-graphic p {
+	font-family: "Unify Sans", serif;
+}
+
+.usat-interactive-graphic h1,
+.usat-interactive-graphic h2,
+.usat-interactive-graphic h3,
+.usat-interactive-graphic h4,
+.usat-interactive-graphic h5,
+.usat-interactive-graphic h6 {
+	font-family: "Unify Sans", sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.in-depth-article-width {
+	padding: 0 20px;
+	width: 100%;
+}
+
+.usat-interactive-graphic .graphic-footer {
+	padding: 10px 0;
+}
+
+.usat-interactive-graphic .source-line {
+	font-size: 12px;
+}
+
+.usat-interactive-graphic h2.graphic-header {
+	font-size: 18px;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+	.in-depth-article-width {
+		padding: 0 18vw;
+	}
+	h2.graphic-header {
+		font-size: 24px;
+	}
+}
+@media (min-width: 1024px) {
+	.in-depth-article-width {
+		padding: 0 26vw;
+	}
+}

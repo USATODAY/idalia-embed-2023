@@ -1,0 +1,85 @@
+@font-face {
+	font-family: "Unify Sans";
+	src: url("https://www.gannett-cdn.com/experiments/usatoday/_common/_fonts/UnifySans_W_Rg.eot");
+	src: url("https://www.gannett-cdn.com/experiments/usatoday/_common/_fonts/UnifySans_W_Rg.eot?#iefix")
+			format("embedded-opentype"),
+		url("https://www.gannett-cdn.com/experiments/usatoday/_common/_fonts/UnifySans_W_Rg.woff")
+			format("woff"),
+		url("https://www.gannett-cdn.com/experiments/usatoday/_common/_fonts/UnifySans_Rg.ttf")
+			format("truetype"),
+		url("https://www.gannett-cdn.com/experiments/usatoday/_common/_fonts/UnifySans_Rg.svg#UnifySans")
+			format("svg");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Unify Sans";
+	src: url("https://www.gannett-cdn.com/experiments/usatoday/_common/_fonts/UnifySans_W_SBd.eot");
+	src: url("https://www.gannett-cdn.com/experiments/usatoday/_common/_fonts/UnifySans_W_SBd.eot?#iefix")
+			format("embedded-opentype"),
+		url("https://www.gannett-cdn.com/experiments/usatoday/_common/_fonts/UnifySans_W_SBd.woff")
+			format("woff"),
+		url("https://www.gannett-cdn.com/experiments/usatoday/_common/_fonts/UnifySans_SBd.ttf")
+			format("truetype"),
+		url("https://www.gannett-cdn.com/experiments/usatoday/_common/_fonts/UnifySans_SBd.svg#UnifySans_SBd")
+			format("svg");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Unify Sans";
+	src: url("https://www.gannett-cdn.com/experiments/usatoday/_common/_fonts/UnifySans_W_Rg.eot");
+	src: url("https://www.gannett-cdn.com/experiments/usatoday/_common/_fonts/UnifySans_W_Rg.eot?#iefix")
+			format("embedded-opentype"),
+		url("https://www.gannett-cdn.com/experiments/usatoday/_common/_fonts/UnifySans_W_Bd.woff")
+			format("woff"),
+		url("https://www.gannett-cdn.com/experiments/usatoday/_common/_fonts/UnifySans_Bd.ttf")
+			format("truetype"),
+		url("https://www.gannett-cdn.com/experiments/usatoday/_common/_fonts/UnifySans_Bd.svg#UnifySans_Bd")
+			format("svg");
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Unify Serif";
+	src: url("https://www.gannett-cdn.com/experiments/usatoday/_common/_fonts/UnifySerif_W_Rg.eot");
+	src: url("https://www.gannett-cdn.com/experiments/usatoday/_common/_fonts/UnifySerif_W_Rg.eot?#iefix")
+			format("embedded-opentype"),
+		url("https://www.gannett-cdn.com/experiments/usatoday/_common/_fonts/UnifySerif_W_Rg.woff")
+			format("woff"),
+		url("https://www.gannett-cdn.com/experiments/usatoday/_common/_fonts/UnifySerif_Rg.ttf")
+			format("truetype"),
+		url("https://www.gannett-cdn.com/experiments/usatoday/_common/_fonts/UnifySerif_W_Rg.svg#UnifySerif_A_Rg")
+			format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Unify Serif";
+	src: url("https://www.gannett-cdn.com/experiments/usatoday/_common/_fonts/UnifySerif_W_SBdIt.eot");
+	src: url("https://www.gannett-cdn.com/experiments/usatoday/_common/_fonts/UnifySerif_W_SBdIt.eot?#iefix")
+			format("embedded-opentype"),
+		url("https://www.gannett-cdn.com/experiments/usatoday/_common/_fonts/UnifySerif_W_SBd.woff")
+			format("woff"),
+		url("https://www.gannett-cdn.com/experiments/usatoday/_common/_fonts/UnifySerif_SBd.ttf")
+			format("truetype"),
+		url("https://www.gannett-cdn.com/experiments/usatoday/_common/_fonts/UnifySerif_W_SBd.svg#UnifySerif_A_Rg")
+			format("svg");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Unify Serif";
+	src: url("https://www.gannett-cdn.com/experiments/usatoday/_common/_fonts/UnifySerif_W_Bd.eot");
+	src: url("https://www.gannett-cdn.com/experiments/usatoday/_common/_fonts/UnifySerif_W_Bd.eot?#iefix")
+			format("embedded-opentype"),
+		url("https://www.gannett-cdn.com/experiments/usatoday/_common/_fonts/UnifySerif_W_Bd.woff")
+			format("woff"),
+		url("https://www.gannett-cdn.com/experiments/usatoday/_common/_fonts/UnifySerif_Bd.ttf")
+			format("truetype"),
+		url("https://www.gannett-cdn.com/experiments/usatoday/_common/_fonts/UnifySerif_W_Bd.svg#UnifySerif_A_Rg")
+			format("svg");
+	font-weight: 900;
+	font-style: normal;
+}

@@ -1,0 +1,60 @@
+body {
+	background: none;
+	background-color: white;
+	min-width: initial !important;
+}
+
+.asset {
+	width: 100%;
+	padding: 0;
+	background: none;
+	background-color: white;
+}
+
+#overlay .close-wrap {
+	display: none;
+}
+
+.interactivepages-body.usat-body {
+	background-image: none !important;
+	background-color: white !important;
+}
+
+.padded-container {
+	padding: 0;
+}
+
+.site-nav-dropdown {
+	position: absolute !important;
+}
+
+.android-smart-banner {
+	display: none !important;
+}
+
+#alert {
+	display: none;
+}
+
+.no-touch {
+	text-rendering: auto !important;
+	-webkit-font-smoothing: subpixel-antialiased !important;
+	-moz-osx-font-smoothing: auto !important;
+}
+header * {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+/* hide loader and card content */
+.card-wrap-behind-overlay {
+	display: none;
+}
+/* android top margin reset */
+.has-banner .first-margin {
+	margin-top: 50px;
+}
+
+footer.site-footer {
+	display: none;
+}

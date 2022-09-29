@@ -1,0 +1,14 @@
+*bower_components
+*node_modules
+.DS_Store
+.idea
+.vscode
+/dist
+/build
+/dev
+/coverage
+/.tmp
+/report
+npm-debug.log
+yarn-error.log
+/public

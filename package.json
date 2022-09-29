@@ -1,0 +1,49 @@
+{
+    "name": "hurricane-tracker-embed-2022",
+    "version": "1.0.0",
+    "description": "",
+    "author": "Mitchell Thorson, USA TODAY",
+    "homepage": "",
+    "type": "module",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/USATODAY/usat-graphics-kit"
+    },
+    "engines": {
+        "node": ">=16.15.0",
+        "npm": ">=8.11.0"
+    },
+    "scripts": {
+        "start": "npm run dev",
+        "dev": "vite",
+        "build": "npm run build:production",
+        "build:dev": "DEPLOY_ENV=dev vite build && DEPLOY_ENV=dev npm run embed",
+        "build:production": "DEPLOY_ENV=master vite build && DEPLOY_ENV=master npm run embed",
+        "deploy": "npm run build && ./scripts/deploy.sh --production --storytelling-embed",
+        "deploy:production": "npm run build && ./scripts/deploy.sh --production",
+        "deploy:dev": "npm run build:dev && ./scripts/deploy.sh --staging",
+        "embed": "node scripts/embed.js",
+        "setup": "echo \"This project has already been initialized.\""
+    },
+    "devDependencies": {
+        "@sveltejs/vite-plugin-svelte": "^1.0.2",
+        "autoprefixer": "^10.4.8",
+        "prettier": "^2.5.1",
+        "prettier-plugin-svelte": "^2.6.0",
+        "svelte": "^3.49.0",
+        "svelte-check": "^2.8.1",
+        "vite": "^3.1.0",
+        "yaml": "^2.1.1"
+    },
+    "browserList": [
+        ">1%",
+        "last 4 versions",
+        "Firefox ESR",
+        "not ie < 11"
+    ],
+    "dependencies": {
+        "geobuf": "^3.0.2",
+        "mapbox-gl": "^2.10.0",
+        "pbf": "^3.2.1"
+    }
+}

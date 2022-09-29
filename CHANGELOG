@@ -1,0 +1,131 @@
+4.2.1
+----
+* bugfix for html title
+* disable webpack dev server overlay for warnings
+
+4.2.0
+----
+* adds SSR options to graphic info
+* runs embed script always, only SSRs outputs that are configured
+
+4.1.0
+----
+* adds graphicinfo.json file for basic configuration
+* supports dynamic html properties like title and description
+
+4.0.1
+----
+* remove unused dependency
+* remove unused scripts
+
+4.0.0
+----
+* delete unused dependencies
+* update dependencies to more recent versions, eliminate security vulnerabilities
+* use new bash deploy script
+* integrate iframe resizer, and storytelling embed options
+* prompt user for what type of embed upfront and setup scripts as such
+
+3.2.0
+----
+* changes the way webpack handles CSS url() imports, leaving them turned off by default.
+* adds define plugin and JS asset path utils
+
+3.1.1
+----
+* fixes deploy bug
+
+3.1.0
+----
+* removes unneeded dependencies
+* adds support for svelte components out of the box
+* better production minification
+
+3.0.0
+----
+* re-organize project to do away with public folder and simplify structure
+* remove unnneeded dependencies and configuration
+
+2.2.1
+----
+* update eslintrc.json to support React out of the box
+
+2.2.0
+----
+* update dependencies and build configuration to support React apps
+
+2.1.1
+----
+* fix bug where deployment config was not https, causing deployment to fail
+
+2.1.0
+----
+* add analytics library
+* update other dependencies
+
+2.0.0
+----
+* complete re-write
+* simplifies options back to just a basic starter template
+* ready to consume new baseplate modules
+
+0.8.0
+----
+* add data table template
+
+0.7.0
+----
+* adds scroll depth tracking
+
+0.6.0
+----
+* adds asset sync script
+
+0.5.0
+----
+* improves analytics functionality and documentation
+* adds full page templates
+* adds asset support to gulpfile
+* adds basic ad module
+* fixes analytics on USA TODAY's mobile web
+
+0.4.3
+----
+* better stepper template slide credits
+* improved design of graphic wrapper
+
+0.4.2
+----
+* fixes mapbox template
+
+0.4.1
+----
+* updates gulp-sass to version 2.x
+
+0.4.0
+----
+* NEW TEMPLATE: stepper
+
+0.3.1
+----
+* adds asset_path to config
+
+0.3.0
+----
+* adds more starting styles and structure
+
+0.2.0
+----
+* fixes and improves bootstrap script
+* changes config files to YAML rather than JSON
+* adds mechanism for creating and using different starter templates
+
+0.1.0
+-----
+* add global namespace to analytics library
+* add analytics library
+* add deploy task
+* add bootstrap script
+* add basic readme and documentation
+* basic project setup
+* start CHANGELOG
