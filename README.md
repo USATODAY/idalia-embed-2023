@@ -1,4 +1,4 @@
-# hurricane-tracker-embed-2022
+# hurricane-tracker-idalia-2023
 
 ## Dependencies
 
@@ -45,6 +45,6 @@ npm run deploy:dev
 
 Assets for this project will be deployed to:
 
-https://www.gannett-cdn.com/experiments/storytelling-embed/$BRANCH/hurricane-tracker-embed-2022
+https://www.gannett-cdn.com/experiments/storytelling-embed/$BRANCH/hurricane-tracker-idalia-embed-2023
 
 where $BRANCH is either `dev` or `master`, depending on the deployment target.
