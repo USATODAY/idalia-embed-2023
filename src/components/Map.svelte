@@ -14,7 +14,7 @@
 		const map = new mapboxgl.Map({
 			container: mapEl,
 			style: style,
-			bounds: [-82.9347,24.514909,-79.232576,29.000809],
+			bounds: [-81.9347,24.514909,-83.232576,33.000809],
 			scrollZoom: false,
 		});
 		return map;

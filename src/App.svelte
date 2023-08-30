@@ -7,7 +7,7 @@
 </script>
 <MapLegend></MapLegend>
 <Map style={mapStyle}>
-	<HurricaneLayer data="https://www.gannett-cdn.com/experiments/usatoday/hurricane-tracker/data/2022/ian.json" />
+	<HurricaneLayer data="https://www.gannett-cdn.com/experiments/usatoday/hurricane-tracker/data/2023/idalia.json" />
 </Map>
 <div class="graphic-footer">
 <p class="source-line">SOURCE: National Oceanic and Atmospheric Administration (NOAA)</p>
