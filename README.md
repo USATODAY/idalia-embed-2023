@@ -1,4 +1,4 @@
-# hurricane-tracker-idalia-2023
+# idalia-2023
 
 ## Dependencies
 
